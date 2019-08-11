@@ -1,0 +1,24 @@
+body {
+	background-image: url("../ima/fondo2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto;
+}
+
+.alineado-texto{
+  vertical-align: text-top;
+}
+
+.pading-right{
+padding-right:10px;
+
+}
+
+.pagination li.active2 {
+  background-color: #3949ab;
+}
+
+
+
+
+

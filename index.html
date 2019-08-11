@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    
+		<!--Importar la fuente Google-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+		<!--Importar la hojas de estilos de materialize css-->
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<title>Blog de Marco Seneca</title>
+	</head>
+	
+	<body>
+		<nav class="row #3949ab indigo darken-1 z-depth-0">
+			<div class="nav-wrapper container">
+				<a href="#" data-activates="mobile-demo" class="button-collapse hide-on-med-and-up"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-small-and-down">
+					<li><a href="badges.html">Inicio</a></li>
+					<li><a href="collapsible.html">Viajes</a></li>
+					<li><a href="mobile.html">Turismo</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="badges.html">Inicio</a></li>
+					<li><a href="collapsible.html">Viajes</a></li>
+					<li><a href="mobile.html">Turismo</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="row container">
+			<div class="col s12 m4 l4 center">
+				<img class="responsive-img circle" src="ima/fotomarco.png"/>
+			</div>	
+			<div class="col s12 m8 l8"> 
+				<h3 class="center"><b>El camino se construye al caminar</b></h3>
+			</div>
+		</div>
+		<div class="row container">
+			<div class="col s12 m1 l1 hide-on-small-and-down">
+				<a href="http://www.facebook.com" target="_blank"><img class="responsive-img center circle" src="ima/facebookicono.png" alt="facebook" title="facebook"/></a>
+				<a href="http://www.instagram.com" target="_blank"><img class="responsive-img center" src="ima/instagramicono.png" alt="instagram" title="instagram"/></a>
+				<a href="http://www.twitter.com" target="_blank"><img class="responsive-img center" src="ima/twittericono.png" alt="twitter" title="twitter"/></a>
+				<a href="http://www.twitch.tv" target="_blank"><img class="responsive-img center" src="ima/twitchicono.png" alt="twitch" title="twitch"/></a>
+				<a href="http://www.youtube.com" target="_blank"><img class="responsive-img center" src="ima/youtubeicono.png" alt="youtube" title="youtube"/></a>
+			</div>
+			<div class="col s12 m11 l11">
+				<div class="row">
+					<div class="col s12 m4 l4 center">
+						<img class="responsive-img center" src="ima/panteon_nacional.jpg"/>
+						<img class="responsive-img center" src="ima/kerepacupai_meru.jpg"/>
+					</div>
+					<div class="col s12 m4 l4 center">
+						<img class="responsive-img center" src="ima/parque_central.jpg"/>
+					</div>
+					<div class="col s12 m4 l4 center">
+						<img class="responsive-img center" src="ima/surf_laguaira.jpg"/>
+						<img class="responsive-img center" src="ima/instrumentos_tradicionales.jpg"/>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="row container">
+			<div class="col s12 m8 l8 left block white">
+				<p class="alineado-texto">
+					<img class="responsive-img left pading-right" src="https://placehold.it/200x180"/>
+					<h5><b>Catia con vista al mar</b></h5>
+					<div class="chip left">
+						<i class="material-icons tiny">today</i>
+						<script>
+							var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+							var f = new Date();
+							document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+						</script>
+					</div>
+					<div class="chip">
+						<i class="material-icons tiny">location_on</i>Caracas - Venezuela
+					</div>
+		
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper id nulla eu finibus. 
+					erat elit, interdum vitae porta et, lacinia sed tortor. Phasellus venenatis est bibendum dolor ornare, 
+					a porta elit tristique. Integer eget augue sit amet lacus feugiat egestas eu vel augue. Phasellus sed
+					orci in ante fermentum rhoncus eget quis justo. Aliquam eros leo, dictum vel odio tincidunt, ullamcorper rhoncus est.
+					Vestibulum facilisis ante nec purus egestas, hendrerit vehicula tellus consectetur. Proin eu fringilla tellus.
+					Sed eu venenatis enim, id consequat metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nisl dictum,
+					gravida nisl in, posuere est. Donec lacus justo, pellentesque vitae nibh sit amet, porttitor efficitur lectus.
+					Fusce porta sem sed metus mollis, nec ornare arcu auctor. Suspendisse pharetra dolor sed rhoncus commodo.
+					Integer egestas euismod finibus. Maecenas leo velit, tincidunt et tristique nec, facilisis nec lacus.<br/><br/>
+					Ut aliquet id lorem at auctor. Nunc leo tellus, accumsan id nibh non, laoreet bibendum odio. 
+					Cras mollis rutrum tortor id lacinia. Donec mauris felis, dapibus et nulla at, posuere malesuada eros. 
+					Proin dapibus tincidunt odio commodo tempor. Praesent dignissim et eros ut sollicitudin.
+				</p>
+				<hr>
+				<h5>Deja tu comentario</h5>
+				<div class="row">
+					<form>
+						<div class="input-field col s6 m6 l6">
+							<i class="material-icons prefix">account_circle</i>
+							<input id="icon_prefix" type="text" data-length="20" class="validate">
+							<label for="icon_prefix">Nombre</label>
+						</div>
+						<div class="input-field col s6 m6 l6">
+							<i class="material-icons prefix">mail</i>
+							<input id="email" type="email" class="validate">
+							<label for="email" data-error="correo invalido" data-success="correcto">Correo</label>
+						</div>
+					</form>
+				</div>
+				<div class="row">
+					<form>
+						<div class="input-field col s12 m12 l12">
+							<i class="material-icons prefix">mode_edit</i>
+							<textarea id="icon_prefix2" data-length="250" class="materialize-textarea"></textarea>
+							<label for="icon_prefix2">Mensaje</label>
+						</div>
+					 </form>
+				</div>
+				<button class="btn waves-effect waves-light right z-depth-0" type="submit" name="action">Publicar
+					<i class="material-icons right">send</i>
+				</button><br/><br/><br/><hr>
+				<p class="alineado-texto">
+					<img class="responsive-img left pading-right" src="https://placehold.it/200x180"/>
+					<h5><b>Los Magallanes de catia</b></h5>
+					<div class="chip left">
+						<i class="material-icons tiny">today</i>
+						<script>
+							var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+							var f = new Date();
+							document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+						</script>
+					</div>
+					<div class="chip">
+						<i class="material-icons tiny">location_on</i>Caracas - Venezuela
+					</div>
+		
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper id nulla eu finibus. 
+					erat elit, interdum vitae porta et, lacinia sed tortor. Phasellus venenatis est bibendum dolor ornare, 
+					a porta elit tristique. Integer eget augue sit amet lacus feugiat egestas eu vel augue. Phasellus sed
+					orci in ante fermentum rhoncus eget quis justo. Aliquam eros leo, dictum vel odio tincidunt, ullamcorper rhoncus est.
+					Vestibulum facilisis ante nec purus egestas, hendrerit vehicula tellus consectetur. Proin eu fringilla tellus.
+					Sed eu venenatis enim, id consequat metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac nisl dictum,
+					gravida nisl in, posuere est. Donec lacus justo, pellentesque vitae nibh sit amet, porttitor efficitur lectus.
+					Fusce porta sem sed metus mollis, nec ornare arcu auctor. Suspendisse pharetra dolor sed rhoncus commodo.
+					Integer egestas euismod finibus. Maecenas leo velit, tincidunt et tristique nec, facilisis nec lacus.<br/><br/>
+					Ut aliquet id lorem at auctor. Nunc leo tellus, accumsan id nibh non, laoreet bibendum odio. 
+					Cras mollis rutrum tortor id lacinia. Donec mauris felis, dapibus et nulla at, posuere malesuada eros. 
+					Proin dapibus tincidunt odio commodo tempor. Praesent dignissim et eros ut sollicitudin.
+				</p>
+				<hr>
+				<h5>Deja tu comentario</h5>
+				<div class="row">
+					<form>
+						<div class="input-field col s6 m6 l6">
+							<i class="material-icons prefix">account_circle</i>
+							<input id="icon_prefix" type="text" data-length="20" class="validate">
+							<label for="icon_prefix">Nombre</label>
+						</div>
+						<div class="input-field col s6 m6 l6">
+							<i class="material-icons prefix">mail</i>
+							<input id="email" type="email" class="validate">
+							<label for="email" data-error="correo invalido" data-success="correcto">Correo</label>
+						</div>
+					</form>
+				</div>
+				<div class="row">
+					<form>
+						<div class="input-field col s12 m12 l12">
+							<i class="material-icons prefix">mode_edit</i>
+							<textarea id="icon_prefix2" data-length="250" class="materialize-textarea"></textarea>
+							<label for="icon_prefix2">Mensaje</label>
+						</div>
+					 </form>
+				</div>
+				<button class="btn waves-effect waves-light right z-depth-0" type="submit" name="action">Publicar
+					<i class="material-icons right">send</i>
+				</button><br/><br/>
+				<ul class="pagination center">
+					<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+					<li class="active2"><a class="white-text" href="#!">1</a></li>
+					<li class="waves-effect"><a href="#!">2</a></li>
+					<li class="waves-effect"><a href="#!">3</a></li>
+					<li class="waves-effect"><a href="#!">4</a></li>
+					<li class="waves-effect"><a href="#!">5</a></li>
+					<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+				</ul>
+			</div>
+			
+			
+			<div class="col s12 m4 l4 center"><br/>
+					<img class="responsive-img circle" src="ima/fotomarco.png"/>
+					<h5>Marco Séneca</h5>
+					<hr>
+						<blockquote class="left-align">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper id nulla eu finibus. 
+							erat elit, interdum vitae porta et, lacinia sed tortor. Phasellus venenatis est bibendum dolor ornare, 
+							a porta elit tristique. Integer eget augue sit amet lacus feugiat egestas eu vel augue.
+						</blockquote> 
+			</div>
+			<div class="col s12 m8 l8 left block white">
+				
+			</div>
+				
+		</div>	
+			
+		
+			
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
