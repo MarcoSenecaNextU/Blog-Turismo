@@ -1,5 +1,5 @@
 body {
-	background-image: url("../ima/fondo2.jpg");
+	background-image: url("../ima/fondo.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: auto;
@@ -10,7 +10,7 @@ body {
 }
 
 .pading-right{
-padding-right:10px;
+padding:10px 10px 10px 10px;
 
 }
 
