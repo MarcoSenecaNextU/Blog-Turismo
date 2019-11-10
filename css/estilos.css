@@ -1,3 +1,4 @@
+/*Imagen de fondo de la web*/
 body {
 	background-image: url("../ima/fondo.jpg");
 	background-repeat: no-repeat;
@@ -5,15 +6,18 @@ body {
 	background-size: auto;
 }
 
+/*Alinea los titulos de las publicaciones al "top"*/
 .alineado-texto{
   vertical-align: text-top;
 }
 
-.pading-right{
+/*Separacion de las imagenes de las publicaciones*/
+.pading-img{
 padding:10px 10px 10px 10px;
 
 }
 
+/*Color "indigo" para el numero de paginacion activa*/
 .pagination li.active2 {
   background-color: #3949ab;
 }
